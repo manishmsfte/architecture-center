@@ -45,7 +45,7 @@ If you choose a traditional database solution, choose a database service based o
 
 - Azure Cosmos DB for NoSQL is a good fit if you want to keep operational data and vector search in the same system and if you need full-text scoring, hybrid search, or built-in reranking. Its semantic reranker is in preview. When your application writes a record and its embedding together, you don't need to synchronize a separate search index before querying the updated item.
 
-- AI Search is a good choice when you need managed indexing and enrichment for unstructured content from multiple sources. It also provides integrated vectorization, faceting, autocomplete, suggesters, synonym maps, and permission-aware knowledge retrieval through Foundry IQ.
+- AI Search is a good choice when you need a separate managed index for content from multiple sources, with integrated vectorization and search-specific features such as faceting and autocomplete.
 
 - Azure Database for PostgreSQL supports horizontal scaling by using elastic clusters, a managed offering of the open-source Citus extension that supports horizontal sharding. This capability distributes vector data across multiple nodes, which can be useful for large vector datasets.
 
